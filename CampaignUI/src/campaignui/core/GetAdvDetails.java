@@ -22,7 +22,10 @@ import javax.servlet.http.HttpServletResponse;
 import com.sun.corba.se.impl.util.Version;
 
 import campaignui.util.CommonUtil;
-
+/*
+ * This class is used to get adv details.
+ * 
+ */
 /**
  * Servlet implementation class GetDetails
  */

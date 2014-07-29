@@ -13,8 +13,8 @@ public class CommonUtil {
     Connection con = null;
     Statement st = null;
     String url = "jdbc:mysql://localhost:3306/vrm";
-    String user = "root";
-    String password = "mysqladmin";
+    String user = "<db-user>";
+    String password = "<db-password>";
     String driver = "com.mysql.jdbc.Driver";
     try {
       Class.forName(driver).newInstance();
